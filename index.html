@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Qalyn Mal Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Qalyn Mal Calculator</h1>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="startingBid">Starting Bid:</label>
+        <input type="number" name="startingBid" id="startingBid">
+        <br><br>
+        <h3>Education Level</h3>
+        <select name="education" id="education">
+            <option value="1.5">Undergraduate Degree</option>
+            <option value="1.2">College Degree</option>
+            <option value="1.05">High School Degree</option>
+            <option value="0.9">Middle School Degree</option>
+        </select>
+        <br><br>
+        <h3>Family Net Worth</h3>
+        <select name="family" id="family">
+            <option value="2">More than $100K</option>
+            <option value="1.5">Between $50K and $100K</option>
+            <option value="1.2">Less than $50K</option><br>
+        </select>
+        <br><br>
+        <h3>Personal Skills</h3>
+        <input type="checkbox" name="skills" value="100">
+        <label for="skills">Playing on dombyra</label><br>
+        <input type="checkbox" name="skills" value="200">
+        <label for="skills">Good cook</label><br>
+        <input type="checkbox" name="skills" value="150">
+        <label for="skills">Easygoing character</label><br>
+        <input type="checkbox" name="skills" value="100">
+        <label for="skills">Sings well</label><br><br>
+        <h3>Age</h3>
+        <input type="radio" name="ages" value="1.5">
+        <label for="ages">Between 18 and 23</label><br>
+        <input type="radio" name="ages" value="1.2">
+        <label for="ages">Between 24 and 27</label><br>
+        <input type="radio" name="ages" value="0.95">
+        <label for="ages">More than 28</label><br><br>
+        <h3>Reputation / Gossips</h3>
+        <input type="checkbox" name="gossips" value="0.85">
+        <label for="attitude">About parent's attitude</label><br>
+        <input type="checkbox" name="gossips" value="0.9">
+        <label for="character">About character</label><br>
+        <input type="checkbox" name="gossips" value="200">
+        <label for="person">Around person</label><br><br>
+        <h3>Love letter</h3>
+        <textarea name="letter" id="letter" cols="50" rows="15" maxlength="500" required></textarea><br>
+        <input type="button" id="button" value="Submit"><br><br>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
